@@ -1,5 +1,5 @@
 # Automation Infrastructure DevOps
-## **Author:** Caleb Espinoza
+**Author:** Caleb Espinoza
 
 ### Vagrant
 To provision a Ubuntu 20 Virtual Machine, run the following command:
