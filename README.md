@@ -2,7 +2,7 @@
 **Author:** Caleb Espinoza
 
 ### Vagrant
-To provision a Ubuntu 20 Virtual Machine, run the following command:
+To create and provision an Ubuntu 20 Virtual Machine, run the following command:
 ```bash
 $ vagrant up --provision
 ```
