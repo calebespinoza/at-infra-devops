@@ -19,7 +19,5 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     chmod +x /tmp/provisioner.sh
     /tmp/provisioner.sh /home/vagrant/stack/docker-compose.yaml
-    cd /home/vagrant/stack/
-    docker-compose exec -d -u root jenkins chown jenkins /var/run/docker.sock
   SHELL
 end

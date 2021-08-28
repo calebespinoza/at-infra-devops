@@ -9,3 +9,5 @@ apt update && apt upgrade -y
 apt install docker-ce docker-compose openjdk-11-jdk -y
 usermod -aG docker vagrant
 docker-compose -f $compose_filepath up -d
+cd /home/vagrant/stack/
+docker-compose exec -d -u root jenkins chown jenkins /var/run/docker.sock
